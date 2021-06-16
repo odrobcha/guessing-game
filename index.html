@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>BeCode / JavaScript</h1>
+        <h2>
+            <strong>Guessing Game</strong>
+        </h2>
+    </header>
+    <div class="content">
+        <section class="explain">
+
+            <p>
+                <img class='pastry' src="img/pasteis.jpg">
+                It's typical Portuguese pastry. Unfortunately, there is only one left... we will make a little game to decide who will get it. If a player guesses a secret number, he or she wins it!
+            </p>
+        </section>
+        <section class="material">
+            <label for = "userGuess">Please, make a guess</label>
+            <input id="userGuess" type="number" placeholder="make your guess">
+            <button id="startGame">Start the game</button>
+            <p id="result"></p>
+        </section>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+
+
+</body>
+</html>
