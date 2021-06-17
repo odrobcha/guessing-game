@@ -9,7 +9,7 @@
         const userGuess = document.getElementById('userGuess').value;
         const computerGuess = randomInt(maxPeople);
         console.log(typeof (userGuess));
-        if (userGuess == '' || parseInt(userGuess) < 0 || parseInt(userGuess) > maxPeople){
+        if (userGuess == '' || parseInt(userGuess) <= 0 || parseInt(userGuess) > maxPeople){
             document.getElementById('result').innerHTML = `Please, enter number between 1 and ${maxPeople}`;
             return
         }
